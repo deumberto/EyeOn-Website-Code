@@ -1,0 +1,126 @@
+/*
+* {
+    border: 1px red solid;
+}
+*/
+body {
+    background-color: #000000;
+    touch-action: pan-y;
+}
+a {
+    text-decoration: none;
+}
+
+@media (min-width: 576px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+  }
+.bg-image {
+    background-image: url(./Assets/imgs/HeroImage.png);
+    background-size: cover;
+    background-position: top;
+    height: 60vh;
+    min-height: 800px;
+    max-height: 1200px;
+}
+@media (max-width: 768px) {
+    .bg-image {
+        height: 500px;
+        min-height: 500px;
+    }
+  }
+ 
+#cards {
+    background-image: url(./Assets/imgs/chip2.png);
+    background-position: center;
+    background-size: cover;
+}
+#list {
+    background-image: url(./Assets/imgs/lights-green.png);
+    background-position: top;
+    background-size: cover;
+}
+#contact {
+    background-image: url(./Assets/imgs/chip2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#logos { display: flex;
+    border: 10px solid #383838;
+}
+#about-intro {
+    background-image: url(./Assets/imgs/servers.png);
+    background-size: cover;
+    background-position: top;
+    height: 70vh;
+    min-height: 700px;
+}
+@media (max-width: 768px) {
+    #about-intro {
+        height: 450px;
+        min-height: 400px;
+    }
+  }
+
+#pikespeak {
+    background-image: url(./Assets/imgs/pikespeak2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+@media (max-width: 768px) {
+    #pikespeak{
+        height: 350px;
+        min-height: 350px;
+    }
+  }
+  #services-intro {
+    background-image: url(./Assets/imgs/HeroImage.png);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    min-height: 600px;
+    max-height: 1200px;
+  }
+  #accordion { 
+    border: 10px solid #383838;
+}
+#payment-options {
+    background-image: url(./Assets/imgs/chip2.png);
+    background-position: center;
+    background-size: cover;
+}
+#projects {
+    height: 50vh;
+    min-height: 600px;
+}
+#support {
+    height: 50vh;
+    min-height: 600px;
+}
+#contracts {
+    height: 50vh;
+    min-height: 600px;
+}
+  #contact-intro {
+    background-image: url(./Assets/imgs/HeroImage.png);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    min-height: 400px;
+}
+  #resources-intro {
+    height:70vh;
+    min-height: 500px;
+  }
+.slide-up {
+    transform: translateY(80px);
+    opacity: 0;
+    transition: transform 0.6s ease-out, opacity 0.4s ease-out;
+}
+.slide-up-active {
+    transform: translateY(0);
+    opacity: 1;
+}
